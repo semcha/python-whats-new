@@ -2,7 +2,7 @@ from datetime import date
 import math
 
 
-# PEP 572: Assignment Expressions (walrus operator)
+# PEP 572 -- Assignment Expressions (walrus operator)
 ## https://www.python.org/dev/peps/pep-0572/#examples
 print(walrus := True)
 
@@ -15,7 +15,7 @@ while (current := input("Write something: ")) != "quit":
     inputs.append(current)
 
 
-# PEP 570: Python Positional-Only Parameters
+# PEP 570 -- Python Positional-Only Parameters
 ## In the following example, parameters a and b are positional-only,
 ## while c or d can be positional or keyword, and e or f are required to be keywords:
 def f(a, b, /, c, d, *, e, f):

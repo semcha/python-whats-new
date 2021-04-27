@@ -1,7 +1,7 @@
 from dataclasses import dataclass
 
 
-# PEP 557: Data Classes
+# PEP 557 -- Data Classes
 ## https://realpython.com/python-data-classes/
 @dataclass
 class Position:

@@ -1,7 +1,7 @@
 import decimal
 
 
-# PEP 498: Formatted string literals
+# PEP 498 -- Literal String Interpolation
 ## https://realpython.com/python-f-strings/
 name = "Fred"
 print(f"He said his name is {name}.")
@@ -15,6 +15,6 @@ comedian = {"name": "Eric Idle", "age": 74}
 print(f"The comedian is {comedian['name']}, aged {comedian['age']}.")
 
 
-# PEP 515: Underscores in Numeric Literals
+# PEP 515 -- Underscores in Numeric Literals
 my_int = 1_000_000_000_000_000
 print(my_int)
